@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </head>
-      <body className="h-full">{children}</body>
+      <body className="h-full bg-[#FFFFFFCC]">{children}</body>
     </html>
   )
 } 
